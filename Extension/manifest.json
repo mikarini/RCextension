@@ -1,0 +1,14 @@
+{
+  "name": "Barre de Recherche Radio-Canada",
+  "version": "1.0",
+  "description": "Ajoute une barre de recherche sur le site de Radio-Canada",
+  "browser_action": {
+      "default_popup": "popup.html",
+	  "default_title": "Une barre de recherche pour Radio-Canada"
+   },
+   "icons": { "16": "icon16.png",
+			  "32": "icon32.png",
+			  "48": "icon48.png",
+			  "128": "icon128.png" },
+  "manifest_version": 2
+}
