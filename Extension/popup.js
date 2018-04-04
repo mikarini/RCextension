@@ -24,7 +24,7 @@ function parseJason()
 {
 	xml = new XMLHttpRequest();
 	xml.onreadystatechange = getData;
-	xml.open("GET","http://13.72.105.141/search/rating/" + document.getElementById("rate").value + "/term/" + input.value,true);
+	xml.open("GET","http://rc.ttl10.net/search/rating/" + document.getElementById("rate").value + "/term/" + input.value,true);
 	//xml.open("GET","http://13.72.105.141/search/term/" + input.value,true);
 	xml.send();
 }
